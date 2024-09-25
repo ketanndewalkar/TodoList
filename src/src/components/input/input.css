@@ -1,0 +1,56 @@
+#input{
+    width:80%;
+    height:15%;
+    /* background-color: #F5F5F7; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+form{
+    width:90%;
+    display: flex;
+    align-items: center;;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+}
+
+#add{
+    width:70%;
+    background-color: transparent;
+    border:none;
+    color:black;
+    padding:1vw 2vw;
+    font-size:1.3vw;
+    &:focus{
+        outline: none;
+        
+    }
+}
+
+#input_holder{
+    width: 70%;
+    /* border:2px solid black; */
+    border-radius: 5vw;
+    background-color: #FCFAEE;
+}
+
+#feat{
+    height:3vw;
+    width:5vw;
+    border:2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:2vw;
+    background-color: black;
+    color:white;
+    cursor:pointer;
+    &:active{
+        /* background-color: white;
+        color:black; */
+        transform: scale(0.99);
+    }
+}
+
+

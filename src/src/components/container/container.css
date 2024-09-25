@@ -1,0 +1,23 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+    
+
+}
+
+#con{
+    width:70vw;
+    height:90vh;
+    background-color: #EDDFE0;
+    border-radius: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:0.7vw;
+    position: absolute;
+    top:3vw;
+}
+
+#con h1{
+  font-size:4vw;  
+}

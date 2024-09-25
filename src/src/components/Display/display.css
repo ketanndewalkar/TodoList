@@ -1,0 +1,23 @@
+#display_container{
+    width:80%;
+    height:80%;
+    /* background-color:#cb80ab45; */
+    border-radius:1vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#itemholder{
+    height:85%;
+    width:80%;
+    overflow-y:scroll; 
+    /* background-color: #cb80ab45; */
+    /* border-radius: 5px ; */
+    
+    
+}
+#itemholder::-webkit-scrollbar {
+    display: none;
+}

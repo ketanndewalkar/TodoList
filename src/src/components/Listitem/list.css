@@ -1,0 +1,38 @@
+#item_menu{
+    
+    width:98%;
+    height:15%;
+    background-color: #fcfaeec7;
+    border:3px solid rgba(0, 0, 0, 0.413);
+    border-radius:1vw;
+    margin-top:1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:4vw
+}
+p{
+    font-size: 1.3vw;
+}
+#item_menu input{
+    font-size: 2vw;
+    margin-left:2vw;
+    
+    
+}
+
+#delete{
+    margin-right:2vw;
+    border:1px solid black;
+    height:3vw;
+    width:3vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    cursor: pointer;
+    &:hover{
+        background-color: #4342426b;
+    }
+    
+}
